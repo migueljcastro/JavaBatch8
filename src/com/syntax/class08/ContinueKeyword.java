@@ -17,6 +17,17 @@ public class ContinueKeyword {
 		}
 		
 		System.out.println("End of the loop");
+		
+		// I want to print numbers from 1 to 10 except number 
+		
+		for(int i = 1; i <= 10; i++) {
+			
+			if(i==3 || i==7) {
+				continue;
+			}
+			
+			System.out.println(i);
+		}
 
 	}
 
