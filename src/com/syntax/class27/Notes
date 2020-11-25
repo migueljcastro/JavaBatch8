@@ -1,0 +1,29 @@
+Main OOPS concept in java:
+1)Inheritance
+2)Polymorphism
+3)Abstraction
+4)Encapsulation
+Inheritance:
+Is a mechanism to refer functions and fields of parent class to subclasses
+It is a process where one class acquires the properties and methods of another class.
+Polymorphism:
+The ability of the object to take many forms
+Being able to do multiple functions using same reference variables but with different objects
+process when objects can preform actions in a different way
+There are two types of Polymorphism runtime/dynamic late binding and compile time early binding or static
+We can achieve compile time polymorphism using method overloading
+we can achieve dynamic or runtime binding using method overriding
+Abstraction:
+Is a process of showing the functionality to the user but hiding the process or implementation details behind it
+To implement Abstraction we use the keyword abstract.
+
+If we have declared a class as abstract we cannot create objects of that class
+Key Points:
+Abstract class:
+1) Can have Abstract and non abstract method
+2) Can have constructor
+3) Can have instance and static members
+4) Can have static and final methods and fields
+5) Abstract methods can't have static modifier and can not be private and we can not make them final
+
+We can not create objects of Abstract class.
